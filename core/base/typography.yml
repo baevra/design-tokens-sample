@@ -1,0 +1,211 @@
+# Typography Styles
+
+  # Headline
+
+- name: $typography.h1.semibold
+  description: Используется для заголовков первого уровня с большим акцентом. Рекомендовано максимум 2 строки
+  value:
+    default:
+      font: $font2.medium
+      size: 36
+      leading: 44
+      tracking: 0.0
+
+- name: $typography.h1.regular
+  description: Используется для заголовков первого уровня. Рекомендовано максимум 2 строки
+  value:
+    default:
+      font: $font2.regular
+      size: 36
+      leading: 44
+      tracking: 0.0
+
+- name: $typography.h2.bold
+  description: Используется для заголовков второго уровня с большим акцентом. Рекомендовано максимум 3 строки
+  value:
+    default:
+      font: $font2.bold
+      size: 30
+      leading: 36
+      tracking: 0.5
+
+- name: $typography.h2.semibold
+  description: Используется для заголовков второго уровня. Рекомендовано максимум 3 строки
+  value:
+    default:
+      font: $font2.medium
+      size: 30
+      leading: 36
+      tracking: 0.5
+
+- name: $typography.h3.bold
+  description: Используется для заголовков третьего уровня с большим акцентом. Рекомендовано максимум 4 строки
+  value:
+    default:
+      font: $font2.bold
+      size: 24
+      leading: 28
+      tracking: 0.25
+
+- name: $typography.h3.semibold
+  description: Используется для заголовков третьего уровня. Рекомендовано максимум 4 строки
+  value:
+    default:
+      font: $font2.medium
+      size: 24
+      leading: 28
+      tracking: 0.25
+
+  # Title
+
+- name: $typography.title.bold
+  description: Стиль заголовков внутри контентной части экрана. Большой акцент
+  value:
+    default:
+      font: $font2.bold
+      size: 20
+      leading: 24
+      tracking: 0.25
+
+- name: $typography.title.semibold
+  description: Стиль заголовков внутри контентной части экрана. Средний акцент
+  value:
+    default:
+      font: $font2.medium
+      size: 20
+      leading: 24
+      tracking: 0.25
+
+- name: $typography.title.regular
+  description: Стиль заголовков внутри контентной части экрана
+  value:
+    default:
+      font: $font2.regular
+      size: 20
+      leading: 24
+      tracking: 0.5
+
+- name: $typography.title.eyebrow.semibold
+  description: Описательное ключевое слово или фраза, размещенная над основным заголовком или секцией. Отображается более мелким кеглем и описывает содержание блока контента ниже
+  value:
+    default:
+      font: $font2.medium
+      size: 12
+      leading: 16
+      tracking: 1
+
+  # Body
+
+- name: $typography.body.bold
+  description: Стиль основного наборного текста с большим акцентом
+  value:
+    default:
+      font: $font2.bold
+      size: 16
+      leading: 20
+      tracking: 1
+
+- name: $typography.body.semibold
+  description: Стиль основного наборного текста со средним акцентом
+  value:
+    default:
+      font: $font2.medium
+      size: 16
+      leading: 20
+      tracking: 0.75
+
+- name: $typography.body.regular
+  description: Стиль основного наборного текста со средним акцентом
+  value:
+    default:
+      font: $font2.regular
+      size: 16
+      leading: 20
+      tracking: 0.5
+
+- name: $typography.body.paragraph.semibold
+  description: Стиль основного наборного текста с увеличенным межстрочным интервалом. Применяется к большим объёмам текста для улучшения читабельности
+  value:
+    default:
+      font: $font2.medium
+      size: 16
+      leading: 24
+      tracking: 0.75
+
+- name: $typography.body.paragraph.regular
+  description: Стиль основного наборного текста с увеличенным межстрочным интервалом. Применяется к большим объёмам текста для улучшения читабельности
+  value:
+    default:
+      font: $font2.regular
+      size: 16
+      leading: 24
+      tracking: 0.5
+
+  # Footnote
+
+- name: $typography.footnote.semibold
+  description: Стиль для описаний и поясняющих подписей с большим акцентом
+  value:
+    default:
+      font: $font2.medium
+      size: 14
+      leading: 16
+      tracking: 1
+
+- name: $typography.footnote.regular
+  description: Стиль для описаний и поясняющих подписей
+  value:
+    default:
+      font: $font2.regular
+      size: 14
+      leading: 16
+      tracking: 0.75
+
+  # Caption
+
+- name: $typography.caption.semibold
+  description: Стиль для мелких подписей и отображения юридической информации
+  value:
+    default:
+      font: $font2.medium
+      size: 12
+      leading: 16
+      tracking: 1.25
+
+  # Other
+
+- name: $typography.other.button1
+  description: Стиль текста, применяющийся только в кнопках большого и среднего размера
+  value:
+    default:
+      font: $font2.medium
+      size: 16
+      leading: 20
+      tracking: 0.5
+
+- name: $typography.other.button2
+  description: Стиль текста, применяющийся только в кнопках маленького размера
+  value:
+    default:
+      font: $font2.medium
+      size: 14
+      leading: 16
+      tracking: 1
+
+- name: $typography.other.navbar
+  description: Стиль текста, применяющийся только для заголовка в Navigation Bar’е
+  value:
+    default:
+      font: $font2.medium
+      size: 16
+      leading: 20
+      tracking: 0.25
+
+- name: $typography.other.tabbar
+  description: Стиль текста, применяющийся только для подписей элементов в Tab Bar’е
+  value:
+    default:
+      font: $font2.medium
+      size: 10
+      leading: 12
+      tracking: 1.5

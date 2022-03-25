@@ -1,0 +1,4 @@
+core: base
+presets:
+  - colors/silver
+  - typography/comic_sans

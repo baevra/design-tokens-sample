@@ -1,0 +1,400 @@
+# Color Styles
+# Базовый набор цветовых переменных для основных сущностей и элементов интерфейсов. Нейминг переменных отражает семантику применения стилей
+
+  # Accent
+
+- name: $accent.primary
+  description: Основной акцентный цвет продукта
+  value:
+    light: $blue110
+    dark: $blue90
+
+- name: $accent.secondary
+  description: Дополнительный акцентный цвет продукта
+  value:
+    light: $blue80
+    dark: $blue60
+
+  # Text
+
+- name: $text.primary
+  description: Цвет основного текста
+  value:
+    light: $gray180
+    dark: $white
+
+- name: $text.secondary
+  description: Цвет второстепенного текста
+  value:
+    light: $gray110
+    dark: $gray80
+
+- name: $text.tertiary
+  description: Цвет третьестепенного текста
+  value:
+    light: $gray80
+    dark: $gray120
+
+- name: $text.interactive
+  description: Цвет активного кликабельного элемента
+  value:
+    light: $blue110
+    dark: $blue90
+
+- name: $text.disabled
+  description: Цвет текста отключенной или запрещенной функции
+  value:
+    light: $black.alpha30
+    dark: $white.alpha20
+
+- name: $text.accent_primary
+  description: Стиль с основным акцентным цветом продукта, применяемый для текста
+  value:
+    light: $blue110
+    dark: $blue80
+
+- name: $text.accent_secondary
+  description: Стиль с дополнительным акцентным цветом продукта, применяемый для текста
+  value:
+    light: $blue80
+    dark: $blue60
+
+- name: $text.primary_inverted
+  description: Инверсный цвет основного текста
+  value:
+    light: $white
+    dark: $gray180
+
+  # Icons
+
+- name: $icon.primary
+  description: Основной цвет иконок
+  value:
+    light: $gray180
+    dark: $white
+
+- name: $icon.secondary
+  description: Второстепенный цвет иконок
+  value:
+    light: $gray110
+    dark: $gray80
+
+- name: $icon.tertiary
+  description: Третьестепенный цвет иконок
+  value:
+    light: $gray80
+    dark: $gray120
+
+- name: $icon.disabled
+  description: Цвет иконки отключенной или запрещенной функции
+  value:
+    light: $black.alpha30
+    dark: $white.alpha20
+
+- name: $icon.accent_primary
+  description: Стиль с основным акцентным цветом продукта, применяемый для иконок
+  value:
+    light: $blue110
+    dark: $blue90
+
+- name: $icon.accent_secondary
+  description: Стиль с дополнительным акцентным цветом продукта, применяемый для иконок
+  value:
+    light: $blue80
+    dark: $blue60
+
+- name: $icon.primary_inverted
+  description: Инверсия основного цвета иконок
+  value:
+    light: $white
+    dark: $gray180
+
+- name: $icon.button_background
+  description: Цвет фона кнопки с иконкой
+  value:
+    light: $black.alpha20
+    dark: $white.alpha30
+
+  # Button
+
+      # Button/Primary
+
+- name: $button.primary.enabled
+  description: Цвет основной кнопки в активном состоянии
+  value:
+    light: $blue110
+    dark: $blue90
+
+- name: $button.primary.pressed
+  description: Цвет основной кнопки в нажатом состоянии
+  value:
+    light: $blue130
+    dark: $blue80
+
+- name: $button.primary.disabled
+  description: Цвет основной кнопки в отключенном состоянии
+  value:
+    light: $blue40
+    dark: $blue130
+
+      # Button/Secondary
+
+- name: $button.secondary.enabled
+  description: Цвет второстепенной кнопки в активном состоянии
+  value:
+    light: $gray20
+    dark: $gray140
+
+- name: $button.secondary.pressed
+  description: Цвет второстепенной кнопки в нажатом состоянии
+  value:
+    light: $gray40
+    dark: $gray120
+
+- name: $button.secondary.disabled
+  description: Цвет второстепенной кнопки в отключенном состоянии
+  value:
+    light: $gray10
+    dark: $gray170
+
+      # Button/Tertiary
+
+- name: $button.tertiary.enabled
+  description: Цвет третьестепенной кнопки в активном состоянии
+  value:
+    light: $transparent
+    dark: $transparent
+
+- name: $button.tertiary.pressed
+  description: Цвет третьестепенной кнопки в нажатом состоянии
+  value:
+    light: $black.alpha05
+    dark: $white.alpha05
+
+- name: $button.tertiary.disabled
+  description: Цвет третьестепенной кнопки в отключенном состоянии
+  value:
+    light: $transparent
+    dark: $transparent
+
+      # Button/Outline
+
+- name: $button.outline.enabled
+  description: Цвет контурной кнопки в активном состоянии
+  value:
+    light: $transparent
+    dark: $transparent
+
+- name: $button.outline.pressed
+  description: Цвет контурной кнопки в нажатом состоянии
+  value:
+    light: $blue20
+    dark: $white.alpha05
+
+- name: $button.outline.disabled
+  description: Цвет контурной кнопки в отключенном состоянии
+  value:
+    light: $transparent
+    dark: $transparent
+
+  # Input
+
+      # Input/Background
+
+- name: $input.background.inactive
+  description: Цвет фона неактивной ячейки ввода
+  value:
+    light: $transparent
+    dark: $transparent
+
+- name: $input.background.focus
+  description: Цвет фона активной ячейки ввода
+  value:
+    light: $transparent
+    dark: $transparent
+
+- name: $input.background.disabled
+  description: Цвет фона отключенной ячейки ввода
+  value:
+    light: $transparent
+    dark: $transparent
+
+      # Input/Stroke
+
+- name: $input.stroke.inactive
+  description: Цвет обводки неактивной ячейки ввода
+  value:
+    light: $gray30
+    dark: $gray140
+
+- name: $input.stroke.focus
+  description: Цвет обводки активной ячейки ввода
+  value:
+    light: $blue110
+    dark: $blue90
+
+- name: $input.stroke.disabled
+  description: Цвет обводки отключенной ячейки ввода
+  value:
+    light: $gray10
+    dark: $gray170
+
+  # Stroke
+
+- name: $stroke.primary
+  description: Основной цвет обводки
+  value:
+    light: $black.alpha15
+    dark: $white.alpha15
+
+- name: $stroke.secondary
+  description: Второстепенный цвет обводки
+  value:
+    light: $white
+    dark: $gray180
+
+- name: $stroke.selected
+  description: Цвет обводки выбранного или активного элемента
+  value:
+    light: $blue110
+    dark: $blue90
+
+- name: $stroke.disabled
+  description: Цвет обводки отключенного элемента
+  value:
+    light: $black.alpha05
+    dark: $white.alpha05
+
+- name: $stroke.accent_primary
+  description: Стиль с основным акцентным цветом продукта, применяемый для обводки
+  value:
+    light: $blue110
+    dark: $blue90
+
+- name: $stroke.accent_secondary
+  description: Стиль с дополнительным акцентным цветом продукта, применяемый для обводки
+  value:
+    light: $blue80
+    dark: $blue60
+
+  # Background
+
+- name: $background.primary
+  description: Основной цвет фона
+  value:
+    light: $white
+    dark: $gray180
+
+- name: $background.secondary
+  description: Второстепенный цвет фона
+  value:
+    light: $gray10
+    dark: $gray160
+
+- name: $background.surface
+  description: Цвет фона поверхности
+  value:
+    light: $white
+    dark: $gray170
+
+- name: $background.surface_overlay
+  description: Цвет фона элемента, всплывающего поверх основного контента (overlay, bottom sheet, pop-up и др.)
+  value:
+    light: $white
+    dark: $gray170
+
+- name: $background.scrim_overlay
+  description: Полупрозрачный цвет затемнения фона. Верхний уровень в иерархии высот (Elevation)
+  value:
+    light: $black.alpha40
+    dark: $black.alpha70
+
+  # Informative
+
+- name: $informative.success
+  description: Цвет положительных или успешных действий
+  value:
+    light: $green100
+    dark: $green80
+
+- name: $informative.warning
+  description: Цвет предупреждений
+  value:
+    light: $yellow100
+    dark: $yellow90
+
+- name: $informative.error
+  description: Цвет ошибок
+  value:
+    light: $red100
+    dark: $red90
+
+- name: $informative.link
+  description: Цвет ссылок на сторонние ресурсы
+  value:
+    light: $blue100
+    dark: $blue80
+
+  # Other
+
+- name: $other.constant_white
+  description: Белый константный цвет
+  value:
+    light: $white
+    dark: $white
+
+- name: $other.constant_black
+  description: Чёрный константный цвет
+  value:
+    light: $gray180
+    dark: $gray180
+
+- name: $other.divider #separator
+  description: Цвет полоски-разделителя
+  value:
+    light: $black.alpha10
+    dark: $white.alpha10
+
+- name: $other.handler
+  description: Цвет ползунка в верхней части Bottom Sheet'а
+  value:
+    light: $gray30
+    dark: $gray150
+
+- name: $other.home_indicator
+  description: Цвет системного Home Indicator'а (iOS)
+  value:
+    light: $black
+    dark: $white
+
+- name: $other.navbar
+  description: Цвет фона Navigation Bar'а
+  value:
+    light: $white
+    dark: $gray170
+
+- name: $other.tabbar
+  description: Цвет фона Tab Bar'а
+  value:
+    light: $white
+    dark: $gray170
+
+      # Other/Skeleton
+
+- name: $other.skeleton.background_start
+  description: Цвет элементов скелетного экрана (Точка А)
+  value:
+    light: $black.alpha05
+    dark: $white.alpha05
+
+- name: $other.skeleton.background_end
+  description: Цвет элементов скелетного экрана (Точка Б)
+  value:
+    light: $black.alpha10
+    dark: $white.alpha10
+
+- name: $other.tabbar1
+  description: Цвет фона Tab Bar'а
+  value:
+    light: $white
+    dark: $gray170

@@ -1,0 +1,102 @@
+# Kinbery Color Palettes
+# Цветовые палитры продукта Kinbery. Палитры Accent Primary и Secondary — основные акцентные цвета бренда.
+
+  # Accent Primary
+
+- name: $amaranth_purple150
+  description: Amaranth Purple 150
+  value: "hsba(337,85,33,1)"
+  
+- name: $amaranth_purple140
+  description: Amaranth Purple 140
+  value: "hsba(337,85,40,1)"
+
+- name: $amaranth_purple130
+  description: Amaranth Purple 130
+  value: "hsba(337,85,47,1)"
+
+- name: $amaranth_purple120
+  description: Amaranth Purple 120
+  value: "hsba(336,85,53,1)"
+
+- name: $amaranth_purple110
+  description: Amaranth Purple 110
+  value: "hsba(336,74,35,1)"
+
+- name: $amaranth_purple100
+  description: Amaranth Purple 100 (Kinbery Primary Color)
+  value: "hsba(336,85,67,1)"
+
+- name: $amaranth_purple90
+  description: Amaranth Purple 90
+  value: "hsba(337,58,45,1)"
+
+- name: $amaranth_purple80
+  description: Amaranth Purple 80
+  value: "hsba(336,62,73,1)"
+
+- name: $amaranth_purple60
+  description: Amaranth Purple 60
+  value: "hsba(337,43,80,1)"
+
+- name: $amaranth_purple40
+  description: Amaranth Purple 40
+  value: "hsba(336,26,87,1)"
+
+- name: $amaranth_purple30
+  description: Amaranth Purple 30
+  value: "hsba(337,19,90,1)"
+
+- name: $amaranth_purple10
+  description: Amaranth Purple 10
+  value: "hsba(336,6,97,1)"
+
+  # Accent Secondary
+
+- name: $majorelle_blue150
+  description: Majorelle Blue 150
+  value: "hsba(238,69,48,1)"
+
+- name: $majorelle_blue140
+  description: Majorelle Blue 140
+  value: "hsba(238,69,58,1)"
+
+- name: $majorelle_blue130
+  description: Majorelle Blue 130
+  value: "hsba(238,69,67,1)"
+
+- name: $majorelle_blue120
+  description: Majorelle Blue 120
+  value: "hsba(238,69,77,1)"
+
+- name: $majorelle_blue110
+  description: Majorelle Blue 110
+  value: "hsba(238,69,87,1)"
+
+- name: $majorelle_blue100
+  description: Majorelle Blue 100 (Kinbery Secondary Color)
+  value: "hsba(238,69,96,1)"
+
+- name: $majorelle_blue90
+  description: Majorelle Blue 90
+  value: "hsba(238,62,96,1)"
+
+- name: $majorelle_blue80
+  description: Majorelle Blue 80
+  value: "hsba(238,55,97,1)"
+
+- name: $majorelle_blue60
+  description: Majorelle Blue 60
+  value: "hsba(238,41,98,1)"
+
+- name: $majorelle_blue40
+  description: Majorelle Blue 40
+  value: "hsba(238,27,98,1)"
+
+- name: $majorelle_blue30
+  description: Majorelle Blue 30
+  value: "hsba(238,20,99,1)"
+
+- name: $majorelle_blue10
+  description: Majorelle Blue 10
+  value: "hsba(236,7,100,1)"

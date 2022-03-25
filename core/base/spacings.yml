@@ -1,0 +1,41 @@
+# Spacing Scale
+
+- name: $spacing1
+  description: 2px
+  value: 2
+
+- name: $spacing2
+  description: 4px
+  value: 4
+
+- name: $spacing3
+  description: 8px (Base unit)
+  value: 8
+
+- name: $spacing4
+  description: 12px
+  value: 12
+
+- name: $spacing5
+  description: 16px
+  value: 16
+
+- name: $spacing6
+  description: 24px
+  value: 24
+
+- name: $spacing7
+  description: 32px
+  value: 32
+
+- name: $spacing8
+  description: 40px
+  value: 40
+
+- name: $spacing9
+  description: 48px
+  value: 48
+
+- name: $spacing10
+  description: 64px
+  value: 64

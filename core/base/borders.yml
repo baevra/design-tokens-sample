@@ -1,0 +1,35 @@
+# Border Rounding / Corner Radius
+
+- name: $border.radius1
+  description: 4px
+  value: 4
+
+- name: $border.radius2
+  description: 8px
+  value: 8
+
+- name: $border.radius3
+  description: 12px
+  value: 12
+
+- name: $border.radius4
+  description: 16px
+  value: 16
+
+- name: $border.radius5
+  description: 20px
+  value: 20
+
+- name: $border.radius6 
+  description: 24px
+  value: 24
+
+# Border Width / Stroke
+
+- name: $border.width1
+  description: 1px
+  value: 1
+
+- name: $border.width2
+  description: 2px
+  value: 2

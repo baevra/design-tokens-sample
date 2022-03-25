@@ -1,0 +1,152 @@
+# Kinbery Color Styles
+# Набор цветовых переменных для основных сущностей и элементов интерфейсов Kinbery. Нейминг переменных отражает семантику применения стилей
+
+  # Accent
+
+- name: $accent.primary
+  description: Основной акцентный цвет продукта
+  value:
+    light: $amaranth_purple100
+    dark: $amaranth_purple100
+
+- name: $accent.secondary
+  description: Дополнительный акцентный цвет продукта
+  value:
+    light: $majorelle_blue100
+    dark: $majorelle_blue90
+
+  # Text
+
+- name: $text.interactive
+  description: Цвет активного кликабельного элемента
+  value:
+    light: $amaranth_purple100
+    dark: $amaranth_purple80
+
+- name: $text.accent_primary
+  description: Стиль с основным акцентным цветом продукта, применяемый для текста
+  value:
+    light: $amaranth_purple100
+    dark: $amaranth_purple80
+
+- name: $text.accent_secondary
+  description: Стиль с дополнительным акцентным цветом продукта, применяемый для текста
+  value:
+    light: $majorelle_blue100
+    dark: $majorelle_blue80
+
+  # Icons
+
+- name: $icon.accent_primary
+  description: Стиль с основным акцентным цветом продукта, применяемый для иконок
+  value:
+    light: $amaranth_purple100
+    dark: $amaranth_purple80
+
+- name: $icon.accent_secondary
+  description: Стиль с дополнительным акцентным цветом продукта, применяемый для иконок
+  value:
+    light: $majorelle_blue100
+    dark: $majorelle_blue80
+
+  # Button
+
+      # Button/Primary
+
+- name: $button.primary.enabled
+  description: Цвет основной кнопки в активном состоянии
+  value:
+    light: $amaranth_purple100
+    dark: $amaranth_purple100
+
+- name: $button.primary.pressed
+  description: Цвет основной кнопки в нажатом состоянии
+  value:
+    light: $amaranth_purple120
+    dark: $amaranth_purple90
+
+- name: $button.primary.disabled
+  description: Цвет основной кнопки в отключенном состоянии
+  value:
+    light: $amaranth_purple30
+    dark: $amaranth_purple150
+
+  # Input
+
+      # Input/Stroke
+
+- name: $input.stroke.focus
+  description: Цвет обводки активной ячейки ввода
+  value:
+    light: $majorelle_blue100
+    dark: $majorelle_blue90
+
+  # Stroke
+
+- name: $stroke.selected
+  description: Цвет обводки выбранного или активного элемента
+  value:
+    light: $majorelle_blue100
+    dark: $majorelle_blue90
+
+- name: $stroke.accent_primary
+  description: Стиль с основным акцентным цветом продукта, применяемый для обводки
+  value:
+    light: $amaranth_purple100
+    dark: $amaranth_purple90
+
+- name: $stroke.accent_secondary
+  description: Стиль с дополнительным акцентным цветом продукта, применяемый для обводки
+  value:
+    light: $majorelle_blue100
+    dark: $majorelle_blue90
+
+  # Product
+
+- name: $product.sos
+  description: Цвет сигнала SOS
+  value:
+    light: $red90
+    dark: $red90
+
+- name: $product.liza_alert
+  description: Брендинговый цвет Лиза Алерт
+  value:
+    light: "hsba(34,92,95,1)"
+    dark: "hsba(34,92,95,1)"
+
+- name: $product.battery_high
+  description: Цвет высокого уровня заряда телефона (50–100%)
+  value:
+    light: $green80
+    dark: $green80
+    
+- name: $product.battery_medium
+  description: Цвет среднего уровня заряда телефона (20–49%)
+  value:
+    light: $yellow100
+    dark: $yellow90
+    
+- name: $product.battery_low
+  description: Цвет низкого уровня заряда телефона (0–19%)
+  value:
+    light: $red100
+    dark: $red90
+    
+- name: $product.premium
+  description: Цвет Премиума
+  value:
+    light: 
+      - color: "hsba(33,85,98,1)"
+        x: 0.5
+        y: 0.0
+      - color: "hsba(42,88,99,1)"
+        x: 0.5
+        y: 1.0
+    dark: 
+      - color: "hsba(33,85,98,1)"
+        x: 0.5
+        y: 0.0
+      - color: "hsba(42,88,99,1)"
+        x: 0.5
+        y: 1.0

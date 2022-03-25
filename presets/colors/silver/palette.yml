@@ -1,0 +1,68 @@
+# Color Palettes
+
+  # Neutral Colors / Silver Gray
+  # Альтернативная палитра, включающая градации серого с синим цветовым тоном (Hue 220°). Может использоваться в проекте вместо стандартной палитры нейтральных цветов (Classic Gray)
+
+- name: $gray190
+  description: Gray 190
+  value: "hsba(240,8,5,1)"
+  
+- name: $gray180
+  description: Gray 180
+  value: "hsba(240,8,10,1)"
+  
+- name: $gray170
+  description: Gray 170
+  value: "hsba(220,5,15,1)"
+
+- name: $gray160
+  description: Gray 160
+  value: "hsba(220,6,20,1)"
+  
+- name: $gray150
+  description: Gray 150
+  value: "hsba(225,6,25,1)"
+  
+- name: $gray140
+  description: Gray 140
+  value: "hsba(220,8,30,1)"
+  
+- name: $gray120
+  description: Gray 120
+  value: "hsba(215,7,40,1)"
+  
+- name: $gray110
+  description: Gray 110
+  value: "hsba(215,7,45,1)"
+  
+- name: $gray100
+  description: Gray 100
+  value: "hsba(220,7,50,1)"
+  
+- name: $gray90
+  description: Gray 90
+  value: "hsba(220,6,55,1)"
+  
+- name: $gray80
+  description: Gray 80
+  value: "hsba(220,5,60,1)"
+  
+- name: $gray60
+  description: Gray 60
+  value: "hsba(220,3,70,1)"
+  
+- name: $gray40
+  description: Gray 40
+  value: "hsba(210,1,80,1)"
+  
+- name: $gray30
+  description: Gray 30
+  value: "hsba(220,1,85,1)"
+  
+- name: $gray20
+  description: Gray 20
+  value: "hsba(220,1,90,1)"
+  
+- name: $gray10
+  description: Gray 10
+  value: "hsba(220,1,95,1)"

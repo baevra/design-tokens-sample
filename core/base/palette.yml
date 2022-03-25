@@ -1,0 +1,323 @@
+# Color Palettes
+
+  # Neutral Colors / Classic Gray
+  # Базовая полная палитра нейтральных оттенков — черного и белого с основными градациями серого и непрозрачностью
+
+- name: $black.alpha05
+  description: Black Alpha 05
+  value: "hsba(0,0,0,0.05)"
+
+- name: $black.alpha10
+  description: Black Alpha 10
+  value: "hsba(0,0,0,0.1)"
+
+- name: $black.alpha15
+  description: Black Alpha 15
+  value: "hsba(0,0,0,0.15)"
+
+- name: $black.alpha20
+  description: Black Alpha 20
+  value: "hsba(0,0,0,0.2)"
+
+- name: $black.alpha30
+  description: Black Alpha 30
+  value: "hsba(0,0,0,0.3)"
+
+- name: $black.alpha40
+  description: Black Alpha 40
+  value: "hsba(0,0,0,0.4)"
+
+- name: $black.alpha50
+  description: Black Alpha 50
+  value: "hsba(0,0,0,0.5)"
+
+- name: $black.alpha60
+  description: Black Alpha 60
+  value: "hsba(0,0,0,0.6)"
+
+- name: $black.alpha70
+  description: Black Alpha 70
+  value: "hsba(0,0,0,0.7)"
+
+- name: $black.alpha80
+  description: Black Alpha 80
+  value: "hsba(0,0,0,0.8)"
+
+- name: $black.alpha90
+  description: Black Alpha 90
+  value: "hsba(0,0,0,0.9)"
+
+- name: $black
+  description: Black
+  value: "hsba(0,0,0,1)"
+
+- name: $gray190
+  description: Gray 190
+  value: "hsba(0,0,5,1)"
+
+- name: $gray180
+  description: Gray 180
+  value: "hsba(0,0,10,1)"
+
+- name: $gray170
+  description: Gray 170
+  value: "hsba(0,0,15,1)"
+
+- name: $gray160
+  description: Gray 160
+  value: "hsba(0,0,20,1)"
+
+- name: $gray150
+  description: Gray 150
+  value: "hsba(0,0,25,1)"
+
+- name: $gray140
+  description: Gray 140
+  value: "hsba(0,0,30,1)"
+
+- name: $gray120
+  description: Gray 120
+  value: "hsba(0,0,40,1)"
+
+- name: $gray110
+  description: Gray 110
+  value: "hsba(0,0,45,1)"
+
+- name: $gray100
+  description: Gray 100
+  value: "hsba(0,0,50,1)"
+
+- name: $gray90
+  description: Gray 90
+  value: "hsba(0,0,55,1)"
+
+- name: $gray80
+  description: Gray 80
+  value: "hsba(0,0,60,1)"
+
+- name: $gray60
+  description: Gray 60
+  value: "hsba(0,0,70,1)"
+
+- name: $gray40
+  description: Gray 40
+  value: "hsba(0,0,80,1)"
+
+- name: $gray30
+  description: Gray 30
+  value: "hsba(0,0,85,1)"
+
+- name: $gray20
+  description: Gray 20
+  value: "hsba(0,0,90,1)"
+
+- name: $gray10
+  description: Gray 10
+  value: "hsba(0,0,95,1)"
+
+- name: $white
+  description: White
+  value: "hsba(0,0,100,1)"
+
+- name: $white.alpha90
+  description: White Alpha 90
+  value: "hsba(0,0,100,0.9)"
+
+- name: $white.alpha80
+  description: White Alpha 80
+  value: "hsba(0,0,100,0.8)"
+
+- name: $white.alpha70
+  description: White Alpha 70
+  value: "hsba(0,0,100,0.7)"
+
+- name: $white.alpha60
+  description: White Alpha 60
+  value: "hsba(0,0,100,0.6)"
+
+- name: $white.alpha50
+  description: White Alpha 50
+  value: "hsba(0,0,100,0.5)"
+
+- name: $white.alpha40
+  description: White Alpha 40
+  value: "hsba(0,0,100,0.4)"
+
+- name: $white.alpha30
+  description: White Alpha 30
+  value: "hsba(0,0,100,0.3)"
+
+- name: $white.alpha20
+  description: White Alpha 20
+  value: "hsba(0,0,100,0.2)"
+
+- name: $white.alpha15
+  description: White Alpha 15
+  value: "hsba(0,0,100,0.15)"
+
+- name: $white.alpha10
+  description: White Alpha 10
+  value: "hsba(0,0,100,0.1)"
+
+- name: $white.alpha05
+  description: White Alpha 05
+  value: "hsba(0,0,100,0.05)"
+
+- name: $transparent
+  description: Transparent
+  value: "hsba(0,0,0,0)"
+
+  # Informative Colors
+  # Основные оттенки обозначительных инфоцветов. Применяются для идентификации системных откликов, состояний и типов элементов в интерфейсе
+
+    # Informative Colors / Red
+
+- name: $red130
+  description: Red 130
+  value: "hsba(2,79,60,1)"
+
+- name: $red120
+  description: Red 120
+  value: "hsba(2,79,68,1)"
+
+- name: $red110
+  description: Red 110
+  value: "hsba(2,79,77,1)"
+
+- name: $red100
+  description: Red 100
+  value: "hsba(2,79,85,1)"
+
+- name: $red90
+  description: Red 90
+  value: "hsba(2,74,93,1)"
+
+- name: $red80
+  description: Red 80
+  value: "hsba(2,61,88,1)"
+
+- name: $red60
+  description: Red 60
+  value: "hsba(2,44,91,1)"
+
+- name: $red40
+  description: Red 40
+  value: "hsba(2,29,94,1)"
+
+- name: $red20
+  description: Red 20
+  value: "hsba(2,14,97,1)"
+
+    # Informative Colors / Green
+
+- name: $green130
+  description: Green 130
+  value: "hsba(123,90,38,1)"
+
+- name: $green120
+  description: Green 120
+  value: "hsba(123,90,43,1)"
+
+- name: $green110
+  description: Green 110
+  value: "hsba(123,90,49,1)"
+
+- name: $green100
+  description: Green 100
+  value: "hsba(123,90,54,1)"
+
+- name: $green90
+  description: Green 90
+  value: "hsba(123,75,59,1)"
+
+- name: $green80
+  description: Green 80
+  value: "hsba(123,61,63,1)"
+
+- name: $green60
+  description: Green 60
+  value: "hsba(123,41,73,1)"
+
+- name: $green40
+  description: Green 40
+  value: "hsba(122,24,82,1)"
+
+- name: $green20
+  description: Green 20
+  value: "hsba(122,11,91,1)"
+
+    # Informative Colors / Blue
+
+- name: $blue130
+  description: Blue 130
+  value: "hsba(217,88,59,1)"
+
+- name: $blue120
+  description: Blue 120
+  value: "hsba(217,88,67,1)"
+
+- name: $blue110
+  description: Blue 110
+  value: "hsba(217,88,76,1)"
+
+- name: $blue100
+  description: Blue 100
+  value: "hsba(217,88,84,1)"
+
+- name: $blue90
+  description: Blue 90
+  value: "hsba(217,78,85,1)"
+
+- name: $blue80
+  description: Blue 80
+  value: "hsba(217,68,87,1)"
+
+- name: $blue60
+  description: Blue 60
+  value: "hsba(218,49,90,1)"
+
+- name: $blue40
+  description: Blue 40
+  value: "hsba(217,32,94,1)"
+
+- name: $blue20
+  description: Blue 20
+  value: "hsba(218,15,97,1)"
+
+    # Informative Colors / Yellow
+
+- name: $yellow130
+  description: Yellow 130
+  value: "hsba(38,82,65,1)"
+
+- name: $yellow120
+  description: Yellow 120
+  value: "hsba(38,82,75,1)"
+
+- name: $yellow110
+  description: Yellow 110
+  value: "hsba(38,82,84,1)"
+
+- name: $yellow100
+  description: Yellow 100
+  value: "hsba(38,82,93,1)"
+
+- name: $yellow90
+  description: Yellow 90
+  value: "hsba(38,73,94,1)"
+
+- name: $yellow80
+  description: Yellow 80
+  value: "hsba(38,65,95,1)"
+
+- name: $yellow60
+  description: Yellow 60
+  value: "hsba(38,48,96,1)"
+
+- name: $yellow40
+  description: Yellow 40
+  value: "hsba(38,31,97,1)"
+
+- name: $yellow20
+  description: Yellow 20
+  value: "hsba(38,15,98,1)"

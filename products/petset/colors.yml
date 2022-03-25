@@ -1,0 +1,159 @@
+# Petset Color Styles
+# Набор цветовых переменных для основных сущностей и элементов интерфейсов Petset. Нейминг переменных отражает семантику применения стилей
+
+  # Accent
+
+- name: $accent.primary
+  description: Основной цвет продукта
+  value:
+    light: $mandarin100
+    dark: $mandarin100
+
+- name: $accent.secondary
+  description: Дополнительный акцентный цвет продукта
+  value:
+    light: $royal_purple100
+    dark: $royal_purple90
+
+  # Text
+
+- name: $text.interactive
+  description: Цвет активного кликабельного элемента
+  value:
+    light: $mandarin100
+    dark: $mandarin90
+
+- name: $text.accent_primary
+  description: Стиль с основным акцентным цветом продукта, применяемый для текста
+  value:
+    light: $mandarin100
+    dark: $mandarin90
+
+- name: $text.accent_secondary
+  description: Стиль с дополнительным акцентным цветом продукта, применяемый для текста
+  value:
+    light: $royal_purple100
+    dark: $royal_purple80
+
+  # Icons
+
+- name: $icon.accent_primary
+  description: Стиль с основным акцентным цветом продукта, применяемый для иконок
+  value:
+    light: $mandarin100
+    dark: $mandarin90
+
+- name: $icon.accent_secondary
+  description: Стиль с дополнительным акцентным цветом продукта, применяемый для иконок
+  value:
+    light: $royal_purple100
+    dark: $royal_purple80
+
+  # Button
+
+    # Button/Primary
+
+- name: $button.primary.enabled
+  description: Цвет основной кнопки в активном состоянии
+  value:
+    light: $mandarin100
+    dark: $mandarin100
+
+- name: $button.primary.pressed
+  description: Цвет основной кнопки в нажатом состоянии
+  value:
+    light: $mandarin120
+    dark: $mandarin110
+
+- name: $button.primary.disabled
+  description: Цвет основной кнопки в отключенном состоянии
+  value:
+    light: $mandarin30
+    dark: $mandarin150
+
+
+  # Input
+
+    # Input/Stroke
+
+- name: $input.stroke.focus
+  description: Цвет обводки активной ячейки ввода
+  value:
+    light: $royal_purple100
+    dark: $royal_purple90
+
+# Stroke
+
+- name: $stroke.selected
+  description: Цвет обводки выбранного или активного элемента
+  value:
+    light: $royal_purple100
+    dark: $royal_purple90
+
+- name: $stroke.accent_primary
+  description: Стиль с основным акцентным цветом продукта, применяемый для обводки
+  value:
+    light: $mandarin100
+    dark: $mandarin90
+
+- name: $stroke.accent_secondary
+  description: Стиль с дополнительным акцентным цветом продукта, применяемый для обводки
+  value:
+    light: $royal_purple100
+    dark: $royal_purple90
+
+ # Product
+
+    # Product/Category
+
+- name: $product.category.park
+  description: Цвет категории Место для прогулок
+  value:
+    light: $grass100
+    dark: $grass100
+
+- name: $product.category.vet
+  description: Цвет категории Ветклиника
+  value:
+    light: $pine100
+    dark: $pine100
+
+- name: $product.category.groomer
+  description: Цвет категории Грумер
+  value:
+    light: $azure100
+    dark: $azure100
+
+- name: $product.category.zootel
+  description: Цвет категории Зоогостиница
+  value:
+    light: $sky100
+    dark: $sky100
+
+- name: $product.category.playground
+  description: Цвет категории Площадка
+  value:
+    light: $amethyst100
+    dark: $amethyst100
+
+- name: $product.category.shop
+  description: Цвет категории Зоомагазин
+  value:
+    light: $fuchsia100
+    dark: $fuchsia100
+
+ # Background
+
+- name: $background.surface_primary
+  description: Цвет фона поверхности
+  value:
+    light: $white
+    dark: $gray170
+
+- name: $background.surface_secondary
+  description: Второстепенный цвет фона поверхности
+  value:
+    light: $gray10
+    dark: $gray160
+    
+

@@ -1,0 +1,97 @@
+# Elevation System
+
+  #E1
+
+- name: $elevation1
+  description: Elevation 1 — 8
+  value:
+    light:
+      shadow0:
+        offset: "0,0"
+        blur: 8
+        color: "hsba(0,0,0,0.08)"
+      shadow1:
+        offset: "0,4"
+        blur: 8
+        color: "hsba(0,0,0,0.08)"
+    dark:
+      overlay: "hsba(0,0,100,0.02)"
+
+- name: $elevation1.interacted
+  description: Elevation 1 – 16 (Interacted)
+  value:
+    light:
+      shadow0:
+        offset: "0,0"
+        blur: 8
+        color: "hsba(0,0,0,0.08)"
+      shadow1:
+        offset: "0,8"
+        blur: 16
+        color: "hsba(0,0,0,0.12)"
+    dark:
+      overlay: "hsba(0,0,100,0.06)"
+
+  #E2
+
+- name: $elevation2
+  description: Elevation 2 — 12
+  value:
+    light:
+      shadow0:
+        offset: "0,0"
+        blur: 12
+        color: "hsba(0,0,0,0.08)"
+      shadow1:
+        offset: "0,6"
+        blur: 12
+        color: "hsba(0,0,0,0.08)"
+    dark:
+      overlay: "hsba(0,0,100,0.045)"
+
+- name: $elevation2.interacted
+  description: Elevation 2 — 24 (Interacted)
+  value:
+    light:
+      shadow0:
+        offset: "0,0"
+        blur: 12
+        color: "hsba(0,0,0,0.08)"
+      shadow1:
+        offset: "0,12"
+        blur: 24
+        color: "hsba(0,0,0,0.18)"
+    dark:
+      overlay: "hsba(0,0,100,0.9)"
+
+  #E3
+
+- name: $elevation3
+  description: Elevation 3 — 16
+  value:
+    light:
+      shadow0:
+        offset: "0,0"
+        blur: 16
+        color: "hsba(0,0,0,0.08)"
+      shadow1:
+        offset: "0,8"
+        blur: 16
+        color: "hsba(0,0,0,0.08)"
+    dark:
+      overlay: "hsba(0,0,100,0.06)"
+
+- name: $elevation3.interacted
+  description: Elevation 3 — 32 (Interacted)
+  value:
+    light:
+      shadow0:
+        offset: "0,0"
+        blur: 16
+        color: "hsba(0,0,0,0.08)"
+      shadow1:
+        offset: "0,16"
+        blur: 32
+        color: "hsba(0,0,0,0.24)"
+    dark:
+      overlay: "hsba(0,0,100,0.12)"

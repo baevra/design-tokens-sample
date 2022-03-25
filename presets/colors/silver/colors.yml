@@ -1,0 +1,30 @@
+# Color Styles
+# Базовый набор цветовых переменных для основных сущностей и элементов интерфейсов. Нейминг переменных отражает семантику применения стилей
+
+# Text
+
+- name: $text.secondary
+  description: Цвет второстепенного текста
+  value:
+    light: $gray120
+    dark: $gray80
+
+- name: $text.tertiary
+  description: Цвет третьестепенного текста
+  value:
+    light: $gray90
+    dark: $gray100
+
+ # Icons
+
+- name: $icon.secondary
+  description: Второстепенный цвет иконок
+  value:
+    light: $gray120
+    dark: $gray80
+
+- name: $icon.tertiary
+  description: Третьестепенный цвет иконок
+  value:
+    light: $gray90
+    dark: $gray100

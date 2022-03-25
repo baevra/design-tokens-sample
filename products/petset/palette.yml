@@ -1,0 +1,279 @@
+# Petset Color Palettes
+# Цветовые палитры продукта Petset. Палитры Accent Primary и Secondary — основные акцентные цвета бренда.
+
+  # Accent Primary
+
+- name: $mandarin150
+  description: Mandarin 150
+  value: "hsba(20,100,60,1)"
+  
+- name: $mandarin140
+  description: Mandarin 140
+  value: "hsba(19,91,70,1)"
+  
+- name: $mandarin130
+  description: Mandarin 130
+  value: "hsba(19,91,78,1)"
+  
+- name: $mandarin120
+  description: Mandarin 120
+  value: "hsba(18,85,85,1)"
+  
+- name: $mandarin110
+  description: Mandarin 110
+  value: "hsba(17,80,90,1)"
+  
+- name: $mandarin100
+  description: Mandarin 100
+  value: "hsba(17,71,92,1)"
+  
+- name: $mandarin90
+  description: Mandarin 90
+  value: "hsba(18,65,98,1)"
+  
+- name: $mandarin80
+  description: Mandarin 80
+  value: "hsba(19,56,99,1)"
+  
+- name: $mandarin60
+  description: Mandarin 60
+  value: "hsba(18,46,100,1)"
+  
+- name: $mandarin40
+  description: Mandarin 40
+  value: "hsba(17,32,100,1)"
+  
+- name: $mandarin30
+  description: Mandarin 30
+  value: "hsba(17,20,100,1)"
+  
+- name: $mandarin10
+  description: Mandarin 10
+  value: "hsba(19,10,100,1)"
+
+  # Accent Secondary
+
+- name: $royal_purple150
+  description: Royal Purple 150
+  value: "hsba(266,90,11,1)"
+  
+- name: $royal_purple140
+  description: Royal Purple 140
+  value: "hsba(261,66,18,1)"
+
+- name: $royal_purple130
+  description: Royal Purple 130
+  value: "hsba(259,64,25,1)"
+
+- name: $royal_purple120
+  description: Royal Purple 120
+  value: "hsba(262,66,32,1)"
+
+- name: $royal_purple110
+  description: Royal Purple 110
+  value: "hsba(262,62,40,1)"
+
+- name: $royal_purple100
+  description: Royal Purple 100
+  value: "hsba(260,61,58,1)"
+
+- name: $royal_purple90
+  description: Royal Purple 90
+  value: "hsba(260,62,88,1)"
+
+- name: $royal_purple80
+  description: Royal Purple 80
+  value: "hsba(260,50,93,1)"
+
+- name: $royal_purple60
+  description: Royal Purple 60
+  value: "hsba(259,35,97,1)"
+
+- name: $royal_purple40
+  description: Royal Purple 40
+  value: "hsba(258,25,99,1)"
+
+- name: $royal_purple30
+  description: Royal Purple 30
+  value: "hsba(259,16,98,1)"
+
+- name: $royal_purple10
+  description: Royal Purple 10
+  value: "hsba(260,9,100,1)"
+
+  # Sky
+
+- name: $sky120
+  description: Sky 120
+  value: "hsba(215,97,62,1)"
+
+- name: $sky110
+  description: Sky 110
+  value: "hsba(215,86,75,1)"
+
+- name: $sky100
+  description: Sky 100
+  value: "hsba(214,80,90,1)"
+
+- name: $sky90
+  description: Sky 90
+  value: "hsba(215,55,94,1)"
+
+- name: $sky80
+  description: Sky 80
+  value: "hsba(215,36,99,1)"
+
+  # Azure
+
+- name: $azure120
+  description: Azure 120
+  value: "hsba(194,90,60,1)"
+
+- name: $azure110
+  description: Azure 110
+  value: "hsba(195,77,73,1)"
+
+- name: $azure100
+  description: Azure 100
+  value: "hsba(194,68,83,1)"
+
+- name: $azure90
+  description: Azure 90
+  value: "hsba(194,50,92,1)"
+
+- name: $azure80
+  description: Azure 80
+  value: "hsba(214,34,97,1)"
+
+ # Pine
+
+- name: $pine120
+  description: Pine 120
+  value: "hsba(172,84,44,1)"
+
+- name: $pine110
+  description: Pine 110
+  value: "hsba(172,81,56,1)"
+
+- name: $pine100
+  description: Pine 100
+  value: "hsba(172,78,69,1)"
+
+- name: $pine90
+  description: Pine 90
+  value: "hsba(172,64,80,1)"
+
+- name: $pine80
+  description: Pine 80
+  value: "hsba(172,40,90,1)"
+
+# Grass
+
+- name: $grass120
+  description: Grass 120
+  value: "hsba(145,90,44,1)"
+
+- name: $grass110
+  description: Grass 110
+  value: "hsba(145,87,56,1)"
+
+- name: $grass100
+  description: Grass 100
+  value: "hsba(145,78,68,1)"
+
+- name: $grass90
+  description: Grass 90
+  value: "hsba(144,63,80,1)"
+
+- name: $grass80
+  description: Grass 80
+  value: "hsba(144,40,90,1)"
+
+# Honey
+
+- name: $honey120
+  description: Honey 120
+  value: "hsba(40,100,76,1)"
+
+- name: $honey110
+  description: Honey 110
+  value: "hsba(42,100,85,1)"
+
+- name: $honey100
+  description: Honey 100
+  value: "hsba(43,99,93,1)"
+
+- name: $honey90
+  description: Honey 90
+  value: "hsba(44,70,100,1)"
+
+- name: $honey80
+  description: Honey 80
+  value: "hsba(44,42,100,1)"
+
+# Cranberry
+
+- name: $cranberry120
+  description: Cranberry 120
+  value: "hsba(4,92,68,1)"
+
+- name: $cranberry110
+  description: Cranberry 110
+  value: "hsba(4,82,80,1)"
+
+- name: $cranberry100
+  description: Cranberry 100
+  value: "hsba(4,76,89,1)"
+
+- name: $cranberry90
+  description: Cranberry 90
+  value: "hsba(3,55,97,1)"
+
+- name: $cranberry80
+  description: Cranberry 80
+  value: "hsba(4,28,99,1)"
+
+# Fuchsia
+
+- name: $fuchsia120
+  description: Fuchsia 120
+  value: "hsba(320,90,68,1)"
+
+- name: $fuchsia110
+  description: Fuchsia 110
+  value: "hsba(320,88,78,1)"
+
+- name: $fuchsia100
+  description: Fuchsia 100
+  value: "hsba(320,80,88,1)"
+
+- name: $fuchsia90
+  description: Fuchsia 90
+  value: "hsba(320,60,94,1)"
+
+- name: $fuchsia80
+  description: Fuchsia 80
+  value: "hsba(320,32,100,1)"
+
+# Amethyst
+
+- name: $amethyst120
+  description: Amethyst 120
+  value: "hsba(271,88,60,1)"
+
+- name: $amethyst110
+  description: Amethyst 110
+  value: "hsba(271,77,70,1)"
+
+- name: $amethyst100
+  description: Amethyst 100
+  value: "hsba(271,64,88,1)"
+
+- name: $amethyst90
+  description: Amethyst 90
+  value: "hsba(271,46,94,1)"
+
+- name: $amethyst80
+  description: Amethyst 80
+  value: "hsba(271,34,100,1)"
+

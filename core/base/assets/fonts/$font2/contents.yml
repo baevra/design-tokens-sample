@@ -1,0 +1,14 @@
+- name: LetoTextSansDefect
+  family: Leto Text Sans Defect
+  weight: bold
+  filename: $font2.bold.otf
+
+- name: Cavorting
+  family: Cavorting
+  weight: medium
+  filename: $font2.medium.otf
+
+- name: ComicSansMS
+  family: Comic Sans MS
+  weight: regular
+  filename: $font2.regular.ttf
